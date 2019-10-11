@@ -1,0 +1,174 @@
+.hc_page {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 30px 50px;
+}
+  .hc_page .button_bar{
+    padding: 10px 0;
+}
+  .hc_page .top_bar{
+    padding: 20px 50px;
+    border: 1px solid #ebeef5;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+  .hc_page .pagin_bar{
+    padding: 10px 0;
+}
+
+
+  //elementUI的样式重写
+//.el-button
+.hc_page {
+
+  //按钮
+  .button_bar{
+    .el-button{
+      font-size: 14px;
+      background: #f7f7f7;
+      border-color: #D9D9D9;
+    }
+    .el-button:not(.is-disabled):focus, .el-button:not(.is-disabled):hover{
+      color: #fff;
+      background: #3491EB;
+      border-color: #3491EB;
+    }
+
+
+  }
+  //表头
+  .el-table th{
+    //background: #f7f7f7;
+  }
+
+  //输入框
+  .top_bar{
+    .el-form{
+      .el-form-item {
+        .el-input__inner{
+          border-radius: unset;
+        }
+      }
+
+
+    }
+  }
+
+}
+//下拉
+.el-select-dropdown{
+  border-radius: unset;
+  margin: unset;
+}
+.el-select-dropdown.el-popper[x-placement^=bottom]{
+  //margin-top: unset;
+}
+.el-select-dropdown__item.hover, .el-select-dropdown__item:hover{
+  background-color: #e7f3fc;
+}
+.el-select-dropdown__item.selected{
+  color: #fff;
+  background-color: #3491eb;
+}
+
+
+//--------------------------------------------------------------------
+
+//.userCustomMobanPage1 .userCustomMobanPageContainer .userCustomMobanPageContainer-buttons .el-button {
+//  width: auto;
+//  padding: 0 10px;
+//  background: #FCFCFC;
+//}
+.userCustomMobanPage1{
+  .userCustomMobanPageContainer{
+    .userCustomMobanPageContainer-buttons{
+      .el-button {
+        width: auto;
+        padding: 0 10px;
+        background: #FCFCFC;
+      }
+      .el-button:focus,
+      .el-button:hover{
+        color: #fff;
+        background: #3491EB;
+        border-color: #3491EB;
+      }
+      .el-button.is-disabled,
+      .el-button.is-disabled:focus,
+      .el-button.is-disabled:hover{
+        color: #c0c4cc;
+        cursor: not-allowed;
+        background-image: none;
+        background-color: #fff;
+        border-color: #ebeef5;
+      }
+
+
+    }
+    .userCustomMobanPageContainer-tables .el-table td .el-button.status_finished{
+      color: #c0c4cc;
+    }
+    .status_color1{
+      color: #409eff;
+
+    }
+    .status_color2{
+      //color: #1ba160;
+      color: #84d945;
+    }
+    .status_color3{
+      color: #d61414;
+    }
+    .status_color4{
+      color: #fccb2e;
+      color: #e7973f;
+      color: #ffcd42;
+    }
+  }
+
+
+
+}
+
+.userCustomMobanPageContainer-msgDialog {
+  .el-dialog .el-dialog__body {
+    .userCustomMobanPageContainer-msgDialog__btns {
+      .el-button {
+        width: auto;
+        padding: 0 10px;
+        background: #FCFCFC;
+      }
+      .el-button:focus,
+      .el-button:hover{
+        color: #fff;
+        background: #3491EB;
+        border-color: #3491EB;
+      }
+      .el-button.is-disabled,
+      .el-button.is-disabled:focus,
+      .el-button.is-disabled:hover{
+        color: #c0c4cc;
+        cursor: not-allowed;
+        background-image: none;
+        background-color: #fff;
+        border-color: #ebeef5;
+      }
+    }
+
+
+
+    .el-table .cell{
+      .el-input .el-input__inner{
+        width: 100%;
+        font-size: unset;
+      }
+
+
+
+    //  .el-button--text.status_finished>span{
+    //    color: #000000;
+    //}
+    }
+  }
+}
+

@@ -1,0 +1,82 @@
+{
+  "apiLists": [{
+      "apiTitle": "true",
+      "apiName": "当前项目涉及账号密码",
+      "apiDescription": "用户可尝试账号-密码：hyht-hyht2019，admin-admin，test-123456"
+    }, {
+      "apiName": "图表组件",
+      "apiRouter": "#/echartmodel",
+      "apiDescription": "主要是各种echarts的图表控件（折线图，饼图，横向柱状图，纵向柱状图，环形图，面积图，雷达图，散点图）"
+    }, {
+      "apiName": "条件组件",
+      "apiRouter": "#/conditionmodel",
+      "apiDescription": "主要是各种条件控件（输入框，基础多选下拉框，级联下拉框，全选多选下拉框，时间选择控件，日期选择控件，日期范围选择控件）"
+    }, {
+      "apiName": "阿里云新项目页面模板",
+      "apiRouter": "#/mobanPage1-8",
+      "apiDescription": "主要是各个页面模板的整合（模板1-模板8）"
+    }, {
+      "apiName": "阿里云新项目弹窗模板",
+      "apiRouter": "#dialogPage1-5",
+      "apiDescription": "主要是各个页面弹窗模板的整合（模板1-模板5）"
+    }, {
+      "apiName": "消息提示组件",
+      "apiRouter": "#/userCustomMessageTips",
+      "apiDescription": "主要是各种消息提示的控件（msg，msgBox，notification，tooltip，popover五种类型）"
+    }, {
+      "apiName": "进度条组件",
+      "apiRouter": "#/userCustomProgress",
+      "apiDescription": "主要是各种进度条的控件（线性进度条，环形进度条两种类型）"
+    }, {
+      "apiName": "tab页组件",
+      "apiRouter": "#/userCustomTabs",
+      "apiDescription": "主要是各种tab页的控件（home项目交互，内容页选择两种类型）"
+    }, {
+      "apiName": "帮助组件",
+      "apiRouter": "#/userCustomHelps",
+      "apiDescription": "主要是项目的帮助控件（包含：多指标帮助，段落帮助，问号帮助，图文帮助四种类型）"
+    },
+    {
+      "apiName": "穿梭框组件",
+      "apiRouter": "#/userCustomTransfer",
+      "apiDescription": "主要是项目的穿梭框控件"
+    },
+    {
+      "apiName": "锁屏组件",
+      "apiRouter": "#/userCustomScreenLock",
+      "apiDescription": "主要是项目的锁屏控件（通过密码：hyht2019）"
+    }, {
+      "apiName": "截图组件",
+      "apiRouter": "#/userCustomScreenshotsPage",
+      "apiDescription": "主要是项目的截图控件（包含：png和pdf两种类型）"
+    }, {
+      "apiName": "打印组件",
+      "apiRouter": "#/userCustomScreenshotsPage",
+      "apiDescription": "主要是项目的打印控件，调用浏览器的打印机"
+    }, {
+      "apiName": "D3关系网络实例",
+      "apiRouter": "#/initD3",
+      "apiDescription": "实例化d3技术开发的关系网络组件，提供外部实例，便于开发人配置组件参数"
+    },
+    {
+      "apiName": "更换壁纸",
+      "apiRouter": "#/changeWallPaper",
+      "apiDescription": "更换壁纸的组件"
+    },
+    {
+      "apiName": "专题菜单",
+      "apiRouter": "#/subjectMenu",
+      "apiDescription": "专题菜单有搜索图表菜单专题加入主页的功能"
+    },
+    {
+      "apiName": "平台搜索功能",
+      "apiRouter": "#/platformSearchFuncPage",
+      "apiDescription": "平台搜索菜单功能"
+    },
+    {
+      "apiName": "上传图片并裁剪",
+      "apiRouter": "#/cutPicture",
+      "apiDescription": "上传图片并裁剪图片功能"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+/* 更换壁纸.css */
+html,body,
+.customChangeWallPager ul,
+.customChangeWallPager li,
+.customChangeWallPager a,
+.customChangeWallPager h1,
+.customChangeWallPager h2,
+.customChangeWallPager h3,
+.customChangeWallPager div,
+.customChangeWallPager p{margin: 0;padding: 0;list-style: none;}
+
+
+.customChangeWallPager{
+    width: 361px;
+    height: 587px;
+    background: #66707d;
+}
+.customChangeWallPager .changeWP_title{
+    font-size: 16px;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px;
+}
+.customChangeWallPager .changeWP_title h3{
+    font-size: 16px;
+    font-weight: 100;
+    float: left;
+    color: #fff;
+}
+.customChangeWallPager .changeWP_title img{
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+.customChangeWallPager .changeWP_title img:hover{
+    background: rgb(194, 193, 193);
+    border-radius: 50%;
+}
+.customChangeWallPager .changeWP_ul{
+    width: 361px;
+    height: 490px;
+    overflow: auto;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.customChangeWallPager .changeWP_ul::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.customChangeWallPager .changeWP_ul::-webkit-scrollbar-thumb {
+    background: #99ccff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+}
+.customChangeWallPager .changeWP_li{
+    width: 141px;
+    list-style: none;
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+    border: 3px solid #66707d;
+}
+.customChangeWallPager .changeWP_li:hover{
+    transform: scale(0.95);
+}
+.customChangeWallPager .changeWP_li.changeWP_li_select{
+    border: 3px solid #0f6dff;
+}
+.customChangeWallPager .changeWP_li.changeWP_li_select:hover{
+    transform: scale(1);
+}
+
+.customChangeWallPager .changeWP_li img{
+    width: 141px;
+    height: 96px;
+}
+.customChangeWallPager .changeWP_btn{
+    width: auto;
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+.customChangeWallPager .changeWP_btn_restoreDefSet{
+    height: 28px;
+    background: #e0e2e5;
+    border: 1px solid #e0e2e5;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 0 4px;
+}
+.customChangeWallPager .changeWP_btn_application{
+    width: 65px;
+    height: 28px;
+    background: #2692c3;
+    border: 1px solid #2692c3;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+}
+.customChangeWallPager .changeWP_btn_restoreDefSet:focus{
+    outline: none;
+}
+.customChangeWallPager .changeWP_btn_application:focus{
+    outline: none;
+}

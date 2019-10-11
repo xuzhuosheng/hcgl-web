@@ -1,0 +1,41 @@
+@import './home.scss';
+// @import '../../static/ztree/css/zTreeStyle.css';
+// @import '../../static/ztree/css/zTreeMenuStyle.css';
+
+@import './allPageCommon.scss'; //公共样式-针对element全局修改
+
+@import "./userCustomMobanPage1.scss";  // 自定义模板1样式
+@import "./userCustomMobanPage2.scss";  // 自定义模板2样式
+@import "./userCustomMobanPage3.scss";  // 自定义模板3样式
+@import "./userCustomMobanPage4.scss";  // 自定义模板4样式
+@import "./userCustomMobanPage5.scss";  // 自定义模板5样式
+@import "./userCustomMobanPage6.scss";  // 自定义模板6样式
+@import "./userCustomMobanPage7.scss";  // 自定义模板7样式
+@import "./userCustomMobanPage8.scss";  // 自定义模板8样式
+
+@import "./userCustomDialogPage1.scss";  // 自定义弹窗模板1样式
+@import "./userCustomDialogPage2.scss";  // 自定义弹窗模板2样式
+@import "./userCustomDialogPage3.scss";  // 自定义弹窗模板3样式
+@import "./userCustomDialogPage4.scss";  // 自定义弹窗模板4样式
+@import "./userCustomDialogPage5.scss";  // 自定义弹窗模板5样式
+
+@import "./userCustomMessageTips.scss";  // 消息提示样式
+@import "./userCustomProgress.scss";  // 进度条组件样式
+@import "./userCustomTabs.scss";  // tab组件样式
+@import "./userCustomHelps.scss";  // 帮助组件
+@import "./userCustomTransfer.scss";  // 穿梭框组件
+@import "./userCustomScreenLock.scss";  // 锁屏组件
+@import "./userCustomScreenshotsPage.scss";  // 截图组件
+@import "./userCustomScreenPrintPage.scss";  // 打印组件
+@import "./userCustomGroupPage.scss";  //组件组合页面
+
+
+@import "./functionsDialog.scss";  //组件组合页面
+@import "./platformSearchFuncPage.scss";  //组件组合页面
+@import "./cutPicture.scss";  //上传并裁剪图片
+
+
+//耗材管理系统
+@import "./haocai";
+
+

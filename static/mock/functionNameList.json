@@ -1,0 +1,125 @@
+{
+  "functionNameList": [{
+      "cName": "查询",
+      "functionName": "viewOnQueryEvent"
+    },
+    {
+      "cName": "重置",
+      "functionName": "viewOnResetEvent"
+    },
+    {
+      "cName": "导出",
+      "functionName": "viewOnExportEvent"
+    },
+    {
+      "cName": "删除",
+      "functionName": "viewOnDelectEvent"
+    },
+    {
+      "cName": "查看",
+      "functionName": "viewOnShowEvent"
+    },
+    {
+      "cName": "测试",
+      "functionName": "viewOnTestEvent"
+    },
+    {
+      "cName": "确认",
+      "functionName": "viewOnAffirmEvent"
+    },
+    {
+      "cName": "取消",
+      "functionName": "viewOnCancelEvent"
+    },
+    {
+      "cName": "帮助",
+      "functionName": "viewOnHelpEvent"
+    },
+    {
+      "cName": "编辑",
+      "functionName": "viewOnEditEvent"
+    },
+    {
+      "cName": "新增",
+      "functionName": "viewOnAddedEvent"
+    },
+    {
+      "cName": "上一步",
+      "functionName": "viewOnLastStepEvent"
+    },
+    {
+      "cName": "下一步",
+      "functionName": "viewOnNextStepEvent"
+    },
+    {
+      "cName": "全屏",
+      "functionName": "viewOnFullScreenEvent"
+    },
+    {
+      "cName": "退出全屏",
+      "functionName": "viewOnCancelFullScreenEvent"
+    },
+    {
+      "cName": "截图",
+      "functionName": "viewOnScreenshotsEvent"
+    },
+    {
+      "cName": "生成PDF",
+      "functionName": "viewGetFileByPDFEvent"
+    },
+    {
+      "cName": "切换",
+      "functionName": "viewOnSwitchEvent"
+    },
+    {
+      "cName": "提示",
+      "functionName": "viewOnTipsEvent"
+    },
+    {
+      "cName": "退出",
+      "functionName": "viewOnExitEvent"
+    },
+    {
+      "cName": "选择人员",
+      "functionName": "viewOnSelectPersonsEvent"
+    },
+    {
+      "cName": "发送",
+      "functionName": "viewOnSendMessagesEvent"
+    },
+    {
+      "cName": "锁屏",
+      "functionName": "viewOnLockScreenEvent"
+    },
+    {
+      "cName": "保存",
+      "functionName": "viewOnSaveEvent"
+    },
+    {
+      "cName": "复制",
+      "functionName": "viewOnCopyEvent"
+    },
+    {
+      "cName": "单击",
+      "functionName": "viewOnClickObjectEvent"
+    },
+    {
+      "cName": "双击",
+      "functionName": "viewOnDblclickObjectEvent"
+    },
+    {
+      "cName": "禁用",
+      "functionName": "viewOnDisabledEvent"
+    },{
+      "cName": "启用",
+      "functionName": "viewOnEnabledEvent"
+    },
+    {
+      "cName": "导入",
+      "functionName": "viewOnExportInEvent"
+    },{
+      "cName": "导入模板",
+      "functionName": "viewOnExportInModelEvent"
+    }
+  ]
+}

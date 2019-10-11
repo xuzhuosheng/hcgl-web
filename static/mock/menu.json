@@ -1,0 +1,182 @@
+{
+  "path0": [
+    {
+      "name":"库存管理",
+      "path":"#/kucun",
+      "tree":true,
+      "children":[]
+    },
+    {
+      "name":"采购计划",
+      "path":"#/caigou",
+      "tree":true,
+      "children":[]
+    },
+    {
+      "name":"申请记录",
+      "path":"#/shenqing",
+      "tree":true,
+      "children":[]
+    },
+    {
+      "name":"耗材维护",
+      "path":"",
+      "tree":true,
+      "children":[
+        {
+          "name": "类型维护",
+          "path": "#/leixing"
+        },
+        {
+          "name": "品牌维护",
+          "path": "#/pinpai"
+        },
+        {
+          "name": "型号维护",
+          "path": "#/xinghao"
+        },
+        {
+          "name": "类别维护",
+          "path": "#/leibie"
+        }
+      ]
+    },
+
+
+    {
+      "name": "技术预研",
+      "path": "",
+      "tree": true,
+      "children": [
+        {
+        "name": "更换壁纸",
+        "path": "#/changeWallPaper"
+      },
+        {
+        "name": "专题菜单",
+        "path": "#/subjectMenu"
+      },{
+        "name": "hyhttree",
+        "path": "#/hyhttree"
+      },{
+        "name": "hyhttable",
+        "path": "#/hyhttable"
+      },{
+        "name": "D3关系网络实例",
+        "path": "#/initD3"
+      }]
+    },
+    {
+      "name": "组件开发",
+      "path": "",
+      "tree": true,
+      "children": [{
+          "name": "图表组件",
+          "path": "#/echartmodel"
+        },
+        {
+          "name": "条件组件",
+          "path": "#/conditionmodel"
+        },
+        {
+          "name": "行业控件组件",
+          "path": "#/industrymoudel"
+        },
+        {
+          "name": "消息提示组件",
+          "path": "#/userCustomMessageTips"
+        },
+        {
+          "name": "进度条组件",
+          "path": "#/userCustomProgress"
+        },
+        {
+          "name": "tab组件",
+          "path": "#/userCustomTabs"
+        },
+        {
+          "name": "帮助组件",
+          "path": "#/userCustomHelps"
+        },
+        {
+          "name": "锁屏组件",
+          "path": "#/userCustomScreenLock"
+        },
+        {
+          "name": "截图组件",
+          "path": "#/userCustomScreenshotsPage"
+        },
+        {
+          "name": "打印组件",
+          "path": "#/userCustomScreenPrintPage"
+        },
+        {
+          "name": "穿梭框组件",
+          "path": "#/userCustomTransfer"
+        }
+      ]
+    },
+    {
+      "name": "页面模板",
+      "path": "",
+      "tree": true,
+      "children": [
+        {
+          "name": "组件组合页面",
+          "path": "#/userCustomGroupPage"
+        }, {
+          "name": "模板1",
+          "path": "#/mobanPage1"
+        },
+        {
+          "name": "模板2",
+          "path": "#/mobanPage2"
+        },
+        {
+          "name": "模板3",
+          "path": "#/mobanPage3"
+        },
+        {
+          "name": "模板4",
+          "path": "#/mobanPage4"
+        },
+        {
+          "name": "模板5",
+          "path": "#/mobanPage5"
+        },
+        {
+          "name": "模板6",
+          "path": "#/mobanPage6"
+        },
+        {
+          "name": "模板7",
+          "path": "#/mobanPage7"
+        },
+        {
+          "name": "模板8",
+          "path": "#/mobanPage8"
+        },
+        {
+          "name": "弹窗模板1",
+          "path": "#/dialogPage1"
+        },
+        {
+          "name": "弹窗模板2",
+          "path": "#/dialogPage2"
+        },
+        {
+          "name": "弹窗模板3",
+          "path": "#/dialogPage3"
+        },
+        {
+          "name": "弹窗模板4",
+          "path": "#/dialogPage4"
+        },
+        {
+          "name": "弹窗模板5",
+          "path": "#/dialogPage5"
+        }
+      ]
+    }
+  ]
+}

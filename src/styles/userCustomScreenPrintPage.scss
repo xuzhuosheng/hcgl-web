@@ -1,0 +1,45 @@
+// userCustomScreenPrintPage.scss  截图组件 
+
+//变量定义
+$border:1px solid #e9e9e9; //边框
+$highborder:1px solid #3491eb; //边框
+$pageBackground:#f9f9f9; //页面背景色
+$intBackground:#fff; //模块背景色
+$fontFamily:"微软雅黑,microsoft yahei"; //字体
+$color:#666666; //字体颜色
+$highColor:#3491eb; //高亮颜色
+$tableHeaderBackground: #f5f7fa;
+$statusNormalColor:#10ad57; //表格状态的正常颜色
+$statusAbnormalColor:#ffb82b; //表格状态的异常颜色
+$operationNormalColor:#20a0ff; //表格操作的正常颜色
+$operationAbnormalColor:#ff4949; //表格操作的删除颜色
+
+
+.userCustomScreenPrintPage {
+  width: 100%;
+  font-family: $fontFamily;
+  color: $color;
+  .userCustomScreenPrintPage-buttons {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 11px 16px 8px 16px;
+    .el-button {
+      width: 65px;
+      height: 26px;
+      padding: 0;
+      color: $color;
+    }
+  }
+  .userCustomScreenPrintPage-container{
+    margin: 0 16px;
+    border:$border;
+    .userCustomScreenPrintPage-container__text{
+      background: #eee;
+    }
+    .userCustomScreenPrintPage-container__table{
+      background: #eee;
+    }
+  }
+}

@@ -1,0 +1,92 @@
+// userCustomMessageTips.scss  信息提示组件
+
+//变量定义
+$border:1px solid #e9e9e9; //边框
+$highborder:1px solid #3491eb; //边框
+$pageBackground:#f9f9f9; //页面背景色
+$intBackground:#fff; //模块背景色
+$fontFamily:"微软雅黑,microsoft yahei"; //字体
+$color:#666666; //字体颜色
+$highColor:#3491eb; //高亮颜色
+$tableHeaderBackground: #f5f7fa;
+$statusNormalColor:#10ad57; //表格状态的正常颜色
+$statusAbnormalColor:#ffb82b; //表格状态的异常颜色
+$operationNormalColor:#20a0ff; //表格操作的正常颜色
+$operationAbnormalColor:#ff4949; //表格操作的删除颜色
+
+
+.userCustomMessageTipsPage {
+  width: 100%;
+  font-family: $fontFamily;
+  color: $color;
+  .userCustomMessageTipsPage-tabs{
+    background: $intBackground;
+    padding: 10px;
+    .el-button{
+      height: 26px;
+      padding: 0 5px;
+      border-radius: 0;
+    }
+    .userCustomMessageTipsPage-tabs__msg{
+      div{
+        padding: 0 0 40px 0;
+      }
+    }
+    .userCustomMessageTipsPage-tabs__msgBox{
+      div{
+        padding: 0 0 40px 0;
+      }
+    }
+    .userCustomMessageTipsPage-tabs__notification{
+      div{
+        padding: 0 0 40px 0;
+      }
+    }
+    .userCustomMessageTipsPage-tabs__tooltip{
+      .userCustomMessageTipsPage-tabs__tooltipBox{
+        width: 500px;
+        margin: 10px 0 20px 0;
+        padding: 10px;
+        .top {
+          text-align: center;
+        }
+    
+        .left {
+          float: left;
+          width: 60px;
+        }
+    
+        .right {
+          float: right;
+          width: 60px;
+        }
+    
+        .bottom {
+          clear: both;
+          text-align: center;
+        }
+    
+        .item {
+          margin: 4px;
+        }
+    
+        .left .el-tooltip__popper,
+        .right .el-tooltip__popper {
+          padding: 8px 10px;
+        }
+      }
+    }
+    .userCustomMessageTipsPage-tabs__popover{
+      div{
+        padding: 0 0 40px 0;
+      }
+    }
+  }
+
+  .pageTipsIcon {
+    position: absolute;
+    top: 11px;
+    right: 20px;
+    color: $highColor;
+  }
+}

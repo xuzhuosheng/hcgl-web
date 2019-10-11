@@ -1,0 +1,146 @@
+// userCustomDialogPage4.scss  用户自定义弹窗模板4：可读的form表单（数量>4)，建议1行2个输入控件
+
+//变量定义
+$border:1px solid #e9e9e9; //边框
+$highborder:1px solid #3491eb; //边框
+$pageBackground:#f9f9f9; //页面背景色
+$intBackground:#fff; //模块背景色
+$fontFamily:"微软雅黑,microsoft yahei"; //字体
+$color:#666666; //字体颜色
+$highColor:#3491eb; //高亮颜色
+$tableHeaderBackground: #f5f7fa;
+$statusNormalColor:#10ad57; //表格状态的正常颜色
+$statusAbnormalColor:#ffb82b; //表格状态的异常颜色
+$operationNormalColor:#20a0ff; //表格操作的正常颜色
+$operationAbnormalColor:#ff4949; //表格操作的删除颜色
+
+
+.userCustomDialogPage4 {
+  width: 100%;
+  font-family: $fontFamily;
+  color: $color;
+
+  .userCustomDialogPageContainer {
+    overflow: hidden;
+    background: $intBackground;
+
+    .uCDPageContainer_buttons {
+      display: block;
+      height: auto;
+      overflow: hidden;
+      background-attachment: fixed;
+      border-radius: 4px;
+      padding: 11px 16px 8px 16px;
+
+      .el-button {
+        width: 65px;
+        height: 26px;
+        padding: 0;
+        color: $color;
+      }
+    }
+
+    .userCustomMobanPageContainer-msgDialog {
+      width: auto;
+      height: auto;
+
+      .el-dialog {
+        .el-dialog__header {
+          display: none;
+        }
+
+        .el-dialog__body {
+          padding: 16px 12px;
+
+          .el-form-item__label {
+            font-size: 12px;
+          }
+
+          .userCustomMobanPageContainer-msgDialog__btns {
+            margin: 0 0 12px 0;
+
+            .el-button {
+              width: 65px;
+              height: 26px;
+              padding: 0;
+              color: $color;
+            }
+          }
+
+          .userCustomMobanPageContainer-msgDialog__body {
+            border: $border;
+            margin: 10px 0 10px 0;
+
+            .userCustomMobanPageContainer-msgDialog__bodyTitle {
+              width: auto;
+              height: 38px;
+              line-height: 38px;
+              padding-left: 14px;
+              font-size: 14px;
+              border-bottom: $border;
+            }
+
+            .userCustomMobanPageContainer-msgDialog__bodyContent {
+              padding: 18px;
+
+              &:hover {
+                cursor: default;
+              }
+
+              .userCustomMobanPageContainer-conditions {
+                display: block;
+                border-radius: 4px;
+                background: $intBackground;
+                overflow: hidden;
+                .el-col{
+                    padding: 5px 0 5px 0;
+                    margin: 0;
+                }
+                .conditionsLabel {
+                  float: left;
+                  width: calc(30% - 8px);
+                  text-align: right;
+                  padding: 4px;
+                  font-size: 12px;
+                  line-height: 1.5;
+                }
+                .conditionsLabelLonger{
+                    float: left;
+                    width: calc(15% - 8px);
+                    text-align: right;
+                    padding: 4px;
+                    font-size: 12px;
+                    line-height: 1.5;
+                }
+
+                .conditionsContent {
+                  float: left;
+                  width: calc(70% - 38px);
+                  max-height: 70px;
+                  overflow: auto;
+                  padding: 4px 0 4px 10px;
+                  font-size: 12px;
+                  color: $highColor;
+                  text-align: justify;
+                  line-height: 1.5;
+                }
+                .conditionsContentLonger{
+                    float: left;
+                    width: calc(85% - 48px);
+                    max-height: 70px;
+                    overflow: auto;
+                    padding: 4px 10px 4px 10px;
+                    font-size: 12px;
+                    color: $highColor;
+                    text-align: justify;
+                    line-height: 1.5;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}

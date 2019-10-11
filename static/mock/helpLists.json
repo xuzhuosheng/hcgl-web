@@ -1,0 +1,71 @@
+{
+  "tree": [{
+    "id": "1",
+    "apiName": "图表组件（#/echartmodel）",
+    "apiDescription": "主要是各种echarts的图表控件（折线图，饼图，横向柱状图，纵向柱状图，环形图，面积图，雷达图，散点图）",
+  }, {
+    "id": "2",
+    "apiName": "条件组件（#/conditionmodel）",
+    "apiDescription": "主要是各种条件控件（输入框，基础多选下拉框，级联下拉框，全选多选下拉框，时间选择控件，日期选择控件，日期范围选择控件）"
+  }, {
+    "id": "3",
+    "apiName": "阿里云新项目页面模板（#/mobanPage1，#/mobanPage2，#/mobanPage3，#/mobanPage4，#/mobanPage5）",
+    "apiDescription": "主要是各个页面模板的整合（模板1-模板5）"
+  }, {
+    "id": "4",
+    "apiName": "阿里云新项目弹窗模板（#dialogPage1，#dialogPage2，#dialogPage3，#dialogPage4）",
+    "apiDescription": "主要是各个页面弹窗模板的整合（模板1-模板4）",
+    "children": [{
+      "id": "4-1",
+      "apiName": "模板1（#/dialogPage1）",
+      "apiDescription": "按钮组+查询表单+操作表格+分页"
+    }, {
+      "id": "4-2",
+      "apiName": "模板2（#/dialogPage2）",
+      "apiDescription": "按钮组+查询表单+tab分页+操作表格+分页"
+    }, {
+      "id": "4-3",
+      "apiName": "模板3（#/dialogPage3）",
+      "apiDescription": "按钮组+查询表单+展示2分表格"
+    }, {
+      "id": "4-4",
+      "apiName": "模板4（#/dialogPage4）",
+      "apiDescription": "按钮组+查询表单+展示图形+展示1分表格"
+    }, {
+      "id": "4-5",
+      "apiName": "模板5（#/dialogPage5）",
+      "apiDescription": "按钮组+表单+树菜单+穿梭框"
+    }]
+  }, {
+    "id": "5",
+    "apiName": "消息提示组件（#/userCustomMessageTips）",
+    "apiDescription": "主要是各种消息提示的控件（msg，msgBox，notification，tooltip，popover五种类型）"
+  }, {
+    "id": "6",
+    "apiName": "进度条组件（#/userCustomProgress）",
+    "apiDescription": "主要是各种进度条的控件（线性进度条，环形进度条两种类型）"
+  }, {
+    "id": "7",
+    "apiName": "tab页组件（#/userCustomTabs）",
+    "apiDescription": "主要是各种tab页的控件（home项目交互，内容页选择两种类型）"
+  }, {
+    "id": "8",
+    "apiName": "帮助组件（#/userCustomHelps）",
+    "apiDescription": "主要是项目的帮助控件（包含：多指标帮助，段落帮助，问号帮助，图文帮助四种类型）"
+  }, {
+    "id": "9",
+    "apiName": "锁屏组件（#/userCustomScreenLock）",
+    "apiDescription": "主要是项目的锁屏控件（通过密码：hyht2019）"
+  }, {
+    "id": "9",
+    "apiName": "截图组件（#/userCustomScreenshotsPage）",
+    "apiDescription": "主要是项目的截图控件（包含：png和pdf两种类型）"
+  }, {
+    "id": "10",
+    "apiName": "打印组件（#/userCustomScreenshotsPage",
+    "apiDescription": "主要是项目的打印控件，调用浏览器的打印机"
+  }]
+}
+
+
+

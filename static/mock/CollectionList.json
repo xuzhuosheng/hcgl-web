@@ -1,0 +1,523 @@
+{
+  "success": true,
+  "errorCode": null,
+  "errorMsg": null,
+  "data": [
+      {
+          "label": "全部",
+          "parentValue": null,
+          "value": "0",
+          "children": [
+              {
+                  "children": [
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "人防办行政事业性收费收入",
+                          "parentValue": "30400",
+                          "value": "30424"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "其他行政事业性收费收入",
+                          "parentValue": "30400",
+                          "value": "30499"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "税务行政事业性收费收入",
+                          "parentValue": "30400",
+                          "value": "30408"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "财政行政事业性收费收入",
+                          "parentValue": "30400",
+                          "value": "30407"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "水利行政事业性收费收入",
+                          "parentValue": "30400",
+                          "value": "30446"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "国土资源行政事业性收费收入",
+                          "parentValue": "30400",
+                          "value": "30432"
+                      }
+                  ],
+                  "cj": 1,
+                  "label": "行政事业性收费收入",
+                  "parentValue": "0",
+                  "value": "30400"
+              },
+              {
+                  "children": [
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "水利建设专项收入",
+                          "parentValue": "30200",
+                          "value": "30221"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "其他专项收入",
+                          "parentValue": "30200",
+                          "value": "30299"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "残疾人就业保障金",
+                          "parentValue": "30200",
+                          "value": "30218"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "文化事业建设费",
+                          "parentValue": "30200",
+                          "value": "30217"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "地方教育附加",
+                          "parentValue": "30200",
+                          "value": "30216"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "水资源费收入",
+                          "parentValue": "30200",
+                          "value": "30202"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "排污费收入",
+                          "parentValue": "30200",
+                          "value": "30201"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "教育费附加",
+                          "parentValue": "30200",
+                          "value": "30203"
+                      }
+                  ],
+                  "cj": 1,
+                  "label": "专项收入",
+                  "parentValue": "0",
+                  "value": "30200"
+              },
+              {
+                  "children": [
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "资源税",
+                          "parentValue": "10100",
+                          "value": "10107"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "个人所得税",
+                          "parentValue": "10100",
+                          "value": "10106"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "城市维护建设税",
+                          "parentValue": "10100",
+                          "value": "10109"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "增值税",
+                          "parentValue": "10100",
+                          "value": "10101"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "营业税",
+                          "parentValue": "10100",
+                          "value": "10103"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "消费税",
+                          "parentValue": "10100",
+                          "value": "10102"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "企业所得税退税",
+                          "parentValue": "10100",
+                          "value": "10105"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "企业所得税",
+                          "parentValue": "10100",
+                          "value": "10104"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "耕地占用税",
+                          "parentValue": "10100",
+                          "value": "10118"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "关税",
+                          "parentValue": "10100",
+                          "value": "10117"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "契税",
+                          "parentValue": "10100",
+                          "value": "10119"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "房产税",
+                          "parentValue": "10100",
+                          "value": "10110"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "城镇土地使用税",
+                          "parentValue": "10100",
+                          "value": "10112"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "印花税",
+                          "parentValue": "10100",
+                          "value": "10111"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "其他税收收入",
+                          "parentValue": "10100",
+                          "value": "10199"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "车船税",
+                          "parentValue": "10100",
+                          "value": "10114"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "土地增值税",
+                          "parentValue": "10100",
+                          "value": "10113"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "车辆购置税",
+                          "parentValue": "10100",
+                          "value": "10116"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "船舶吨税",
+                          "parentValue": "10100",
+                          "value": "10115"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "烟叶税",
+                          "parentValue": "10100",
+                          "value": "10120"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "屠宰税（废止）",
+                          "parentValue": "10100",
+                          "value": "10125"
+                      }
+                  ],
+                  "cj": 1,
+                  "label": "税收收入",
+                  "parentValue": "0",
+                  "value": "10100"
+              },
+              {
+                  "children": [
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "城市公用事业附加收入",
+                          "parentValue": "30100",
+                          "value": "30144"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "农业土地开发资金收入",
+                          "parentValue": "30100",
+                          "value": "30147"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "国有土地收益基金收入",
+                          "parentValue": "30100",
+                          "value": "30146"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "国有土地使用权出让收入",
+                          "parentValue": "30100",
+                          "value": "30148"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "水土保持补偿费收入",
+                          "parentValue": "30100",
+                          "value": "30176"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "废弃电器电子产品处理基金收入",
+                          "parentValue": "30100",
+                          "value": "30175"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "大中型水库库区基金",
+                          "parentValue": "30100",
+                          "value": "30150"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "城市基础设施配套费收入",
+                          "parentValue": "30100",
+                          "value": "30156"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "其他政府性基金收入",
+                          "parentValue": "30100",
+                          "value": "30199"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "国家重大水利工程建设基金收入",
+                          "parentValue": "30100",
+                          "value": "30158"
+                      }
+                  ],
+                  "cj": 1,
+                  "label": "政府性基金收入",
+                  "parentValue": "0",
+                  "value": "30100"
+              },
+              {
+                  "children": [
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "机关事业单位职业年金",
+                          "parentValue": "10200",
+                          "value": "10291"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "其他社会保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10299"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "机关事业单位基本养老保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10211"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "城乡居民基本养老保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10210"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "城乡居民基本医疗保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10212"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "新型农村合作医疗基金收入",
+                          "parentValue": "10200",
+                          "value": "10206"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "生育保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10205"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "城镇居民基本医疗保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10207"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "失业保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10202"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "基本养老保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10201"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "工伤保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10204"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "基本医疗保险基金收入",
+                          "parentValue": "10200",
+                          "value": "10203"
+                      }
+                  ],
+                  "cj": 1,
+                  "label": "社会保险基金收入",
+                  "parentValue": "0",
+                  "value": "10200"
+              },
+              {
+                  "children": [
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "场地使用费收入",
+                          "parentValue": "30700",
+                          "value": "30703"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "陆上石油矿区使用费",
+                          "parentValue": "30700",
+                          "value": "30702"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "利息收入",
+                          "parentValue": "30700",
+                          "value": "30705"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "海上石油矿区使用费",
+                          "parentValue": "30700",
+                          "value": "30701"
+                      },
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "其他国有资源（产）有偿使用收入",
+                          "parentValue": "30700",
+                          "value": "30799"
+                      }
+                  ],
+                  "cj": 1,
+                  "label": "国有资源（资产）有偿使用收入",
+                  "parentValue": "0",
+                  "value": "30700"
+              },
+              {
+                  "children": [
+                      {
+                          "children": null,
+                          "cj": 2,
+                          "label": "税务部门罚没收入",
+                          "parentValue": "30500",
+                          "value": "30501"
+                      }
+                  ],
+                  "cj": 1,
+                  "label": "罚没收入",
+                  "parentValue": "0",
+                  "value": "30500"
+              },
+              {
+                  "children": null,
+                  "cj": 1,
+                  "label": "其他收入",
+                  "parentValue": "0",
+                  "value": "39900"
+              }
+          ],
+          "cj": "0"
+      }
+  ],
+  "coderInfo": {
+      "name": "liuchong",
+      "version": "2019-03-27 11:38:00"
+  }
+}

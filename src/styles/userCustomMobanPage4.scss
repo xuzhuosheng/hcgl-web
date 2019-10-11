@@ -1,0 +1,330 @@
+// userCustomMobanPage4.scss  用户自定义模板4：按钮组+查询表单+展示图形+展示1分表格
+
+//变量定义
+$border:1px solid #e9e9e9; //边框
+$highborder:1px solid #3491eb; //边框
+$pageBackground:#f9f9f9; //页面背景色
+$intBackground:#fff; //模块背景色
+$fontFamily:"微软雅黑,microsoft yahei"; //字体
+$color:#666666; //字体颜色
+$highColor:#3491eb; //高亮颜色
+$tableHeaderBackground: #f5f7fa;
+$statusNormalColor:#10ad57; //表格状态的正常颜色
+$statusAbnormalColor:#ffb82b; //表格状态的异常颜色
+$operationNormalColor:#20a0ff; //表格操作的正常颜色
+$operationAbnormalColor:#ff4949; //表格操作的删除颜色
+
+
+.userCustomMobanPage4 {
+  width: 100%;
+  font-family: $fontFamily;
+  color: $color;
+
+  .userCustomMobanPageContainer {
+    overflow: hidden;
+    background: $intBackground;
+    padding: 11px 16px 11px 16px;
+
+    .userCustomMobanPageContainer-buttons {
+      display: block;
+      height: auto;
+      overflow: hidden;
+      background-attachment: fixed;
+      border-radius: 4px;
+
+      .el-button {
+        width: 65px;
+        height: 26px;
+        padding: 0;
+        color: $color;
+        margin: 0 10px 8px 0;
+      }
+    }
+    
+    .userCustomMobanPageContainer-contents{
+      overflow: hidden;
+      padding-bottom: 10px;
+      
+      .userCustomMobanPageContainer-conditions {
+        display: block;
+        border: $border;
+        border-radius: 4px;
+        background: $intBackground;
+        overflow: hidden;
+        padding: 10px 0;
+        margin-bottom: 12px;
+  
+        .userCustomMobanPageContainer-conditions__form {
+          width: 100%;
+  
+          .el-form-item {
+            margin: 12px 0;
+            padding: 0;
+            width: 100%;
+  
+            .el-form-item__label {
+              width: 30%;
+              font-size: 12px;
+              line-height: 28px;
+            }
+  
+            .el-form-item__content {
+              font-size: 12px;
+              line-height: normal;
+  
+              .el-input {
+                .el-input__inner {
+                  width: 210px;
+                  height: 28px;
+                  border-radius: 0;
+                  font-size: 12px;
+                }
+              }
+
+              .el-radio__label{
+                font-size: 12px;
+              }
+              .el-cascader{
+                font-size: 12px;
+              }
+  
+              .el-textarea{
+                width: 210px;
+                border-radius: 0;
+                .el-textarea__inner{
+                  border-radius: 0;
+                }
+              }
+  
+              .el-cascader {
+                font-size: 12px;
+                height: 28px;
+                line-height: 28px;
+              }
+  
+              .el-select {
+                height: 28px;
+                line-height: 28px;
+  
+                .el-tag{
+                  background-color: #f0f2f5a8;
+                }
+  
+                .el-input.el-input--suffix {
+                  height: 28px;
+                  line-height: 28px;
+  
+                  .el-input__inner {
+                    height: 28px;
+                    line-height: 28px;
+                  }
+                }
+              }
+  
+              .el-date-editor.el-range-editor.el-input__inner.el-date-editor--daterange {
+                width: 210px;
+                height: 28px;
+                border-radius: 0;
+  
+                .el-range__icon {
+                  line-height: 20px;
+                }
+  
+                .el-range-input {
+                  font-size: 12px;
+                }
+  
+                .el-range-separator {
+                  line-height: 20px;
+                  font-size: 12px;
+                }
+  
+                .el-range__close-icon {
+                  line-height: 20px;
+                }
+              }
+              .el-date-editor.el-range-editor.el-input__inner.el-date-editor--datetimerange {
+                width: 210px;
+                height: 28px;
+                border-radius: 0;
+  
+                .el-range__icon {
+                  line-height: 20px;
+                }
+  
+                .el-range-input {
+                  font-size: 12px;
+                }
+  
+                .el-range-separator {
+                  line-height: 20px;
+                  font-size: 12px;
+                  width: auto;
+                }
+  
+                .el-range__close-icon {
+                  line-height: 20px;
+                }
+              }
+
+  
+              .el-input__icon {
+                height: 28px;
+                line-height: 28px;
+              }
+  
+              .el-input__suffix {
+                height: 28px;
+                line-height: 28px;
+              }
+  
+              .el-input__prefix {
+                height: 28px;
+                line-height: 28px;
+              }
+            }
+          }
+        }
+      }
+  
+      .userCustomMobanPageContainer-charts {
+          .userCustomMobanPageContainer-charts__showBox{
+              border: $border;
+              border-radius: 4px;
+              margin-bottom: 12px;
+              .userCustomMobanPageContainer-charts__showTitle {
+                height: 38px;
+                line-height: 38px;
+        
+                .uCMPageContainer_charts_showTitleName {
+                  height: 30px;
+                  line-height: 30px;
+                  margin: 4px 10px;
+                  border-bottom: $border;
+        
+                  .emptyBorder {
+                    display: inline-block;
+                    width: 3px;
+                    height: 18px;
+                    line-height: 18px;
+                    margin-right: 5px;
+                    background: $highColor;
+                  }
+                }
+              }
+              .userCustomMobanPageContainer-charts__box{
+                  padding: 10px;
+                  overflow: hidden;
+                  .userCustomMobanPageContainer-charts__boxLeft{
+                    float: left;
+                    width: 25%;
+                    text-align: center;
+                    .uCMPageContainer_charts_personBtns{
+                      text-align: left;
+                      .el-button{
+                        width: 40px;
+                        height: 26px;
+                        line-height: normal;
+                        padding: 0;
+                        font-size: 12px;
+                        &+.el-button{
+                          margin-left: 5px;
+                        }
+                        &.btn1{
+                          border-top-right-radius: 0;
+                          border-bottom-right-radius: 0;
+                        }
+                        &.btn2{
+                          border-radius: 0;
+                        }
+                        &.btn3{
+                          border-top-left-radius: 0;
+                          border-bottom-left-radius: 0;
+                        }
+                      }
+                    }
+                    .uCMPageContainer_charts_personIcon{
+                      text-align: center;
+                      padding: 10px 20px 10px 10px;
+                    }
+                    .uCMPageContainer_charts_personText{
+                      display: block;
+                      padding-bottom: 15px;
+                      .uCMPageContainer_charts_personTextName{
+                        display: block;
+                        width: 100%;
+                        text-align: right;
+                        margin: 5px 0;
+                        span{
+                          display: inline-block;
+                          padding-left: 1%;
+                          width: 44%;
+                          text-align: left;
+                        }
+                      }
+                    }
+                  }
+                  .userCustomMobanPageContainer-charts__boxRIght{
+                    float: left;
+                    width: 75%;
+                    height: 276px;
+                    overflow: hidden;
+                    text-align: center;
+                  }
+              }
+          }
+      }
+  
+      .userCustomMobanPageContainer-tables {
+        display: block;
+        border-radius: 4px;
+        background: $intBackground;
+        margin-bottom: 12px;
+  
+        .el-table__header-wrapper .el-table__header {
+          th {
+            background: $tableHeaderBackground;
+          }
+        }
+  
+        .el-table th {
+          padding: 8px 0;
+          background: #f5f7fa;
+        }
+  
+        .el-table td {
+          padding: 4px 0;
+          font-size: 12px;
+  
+          .statusNormalColor {
+            color: $statusNormalColor;
+          }
+  
+          .statusAbnormalColor {
+            color: $statusAbnormalColor;
+          }
+  
+          .operationNormalColor {
+            color: $operationNormalColor;
+          }
+  
+          .operationAbnormalColor {
+            color: $operationAbnormalColor;
+          }
+  
+          .el-button {
+            color: $operationNormalColor;
+  
+            &.operationNormalColor {
+              color: $operationNormalColor;
+            }
+  
+            &.operationAbnormalColor {
+              color: $operationAbnormalColor;
+            }
+          }
+        }
+      }
+    }
+  }
+}

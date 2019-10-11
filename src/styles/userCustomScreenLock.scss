@@ -1,0 +1,165 @@
+// userCustomScreenLock.scss  锁屏组件
+
+//变量定义
+$border:1px solid #e9e9e9; //边框
+$highborder:1px solid #3491eb; //边框
+$pageBackground:#f9f9f9; //页面背景色
+$intBackground:#fff; //模块背景色
+$fontFamily:"微软雅黑,microsoft yahei"; //字体
+$color:#666666; //字体颜色
+$highColor:#3491eb; //高亮颜色
+$tableHeaderBackground: #f5f7fa;
+$statusNormalColor:#10ad57; //表格状态的正常颜色
+$statusAbnormalColor:#ffb82b; //表格状态的异常颜色
+$operationNormalColor:#20a0ff; //表格操作的正常颜色
+$operationAbnormalColor:#ff4949; //表格操作的删除颜色
+
+
+.userCustomScreenLockPage {
+  width: 100%;
+  font-family: $fontFamily;
+  color: $color;
+  .userCustomScreenLockPage-buttons {
+    display: block;
+    height: auto;
+    overflow: hidden;
+    border-radius: 4px;
+    padding: 11px 16px 8px 16px;
+    .el-button {
+      width: 65px;
+      height: 26px;
+      padding: 0;
+      color: $color;
+    }
+  }
+  .userCustomScreenLockPage-container{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    .userCustomScreenLockPage-container__img{
+      width: 100%;
+      height: 100%;
+    }
+    .userCustomScreenLockPage-container__datetime{
+      position: absolute;
+      bottom: 50px;
+      left: 50px;
+      width: auto;
+      height: 100px;
+      .userCustomScreenLockPage-container__time{
+        font-size: 38px;
+        color: #fff;
+        margin: 5px 0;
+      }
+      .userCustomScreenLockPage-container__date{
+        font-size: 28px;
+        color: #fff;
+        margin: 5px 0;
+      }
+    }
+    .userCustomScreenLockPage-container__password{
+      position: absolute;
+      top: 40%;
+      left: calc(50% - 200px);
+      width: 400px;
+      .userCustomScreenLockPage-container__passwordName{
+        font-size: 22px;
+        text-align: center;
+        color: #fff;
+        width: 390px;
+        padding: 5px;
+      }
+      .el-input{
+        width: 280px;
+        height: 28px;
+        margin-top: 20px;
+        margin-left: calc(200px - 140px);
+        border: 1px solid #e9e9e9;
+        .el-input__inner{
+          height: 28px;
+          border-radius: 0;
+          width: 270px;
+          letter-spacing:2px;
+          &:hover{
+            border-color: #dcdfe6;
+          }
+          &:focus{
+            border-color: #dcdfe6;
+          }
+        }
+      }
+      .el-input-group__prepend{
+        padding: 0 5px;
+        border-radius: 0;
+        cursor: pointer;
+        background: #fff;
+      }
+      .el-input-group__append{
+        border-radius: 0;
+        background: none;
+        border: none;
+        padding-right: 20px;
+        border-left: none;
+        .el-button{
+          border-radius: 0;
+          padding: 0 12px;
+          color: #fff;
+        }
+      }
+      .userCustomScreenLockPage-container__changeBtns{
+        margin-top: 20px;
+        width: 100px;
+        height: 28px;
+        border-radius: 0;
+        padding: 0;
+        background: none;
+        border-color: #e9e9e9;
+        margin-left: calc(200px - 50px);
+        color: #fff;
+      }
+    }
+    .userCustomScreenLockPage-container__changeBgBox{
+      position: absolute;
+      bottom:0;
+      right: 50px;
+      .userCustomScreenLockPage-container__randomWallImg{
+        width: 24px;
+        height: 24px;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+      }
+      .userCustomScreenLockPage-container__randomWall{
+        width: 2px;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        margin-left: 12px;
+        margin-top: -12px;
+        background: #e9e9e9;
+      }
+      /*动画效果*/
+      .imgAnimation{
+        /*animation (动画) :绑定选择器, 1s完成动画 linear(匀速) infinite(循环) */
+        animation: que 1s linear infinite;
+        animation-iteration-count:1;
+        animation-fill-mode:forwards;
+      }
+        /*通过@keyframes规则,能够创建动画 , que 定义动画的名称 可自己定义*/
+      @keyframes que {
+          /*以百分比来规定改变发生的时间 也可以通过"from"和"to",等价于0% 和 100%*/
+          0%{
+              /*rotate(2D旋转) scale(放大或者缩小) translate(移动) skew(翻转)*/
+              transform: rotate(0deg);
+          }
+          100%{
+              transform: rotate(360deg);
+          }
+        }
+      }
+  }
+
+}

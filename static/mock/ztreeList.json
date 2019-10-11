@@ -1,0 +1,122 @@
+{
+  "path0": [{
+      "name": "广东省国家税务局",
+      "path": "",
+      "tree": true,
+      "children": [{
+          "name": "广东省国家税务局稽查局",
+          "path": "#/echartmodel",
+          "children": [{
+            "name": "广东省国家税务局稽查局分局1",
+            "path": "#/conditionmodel"
+          }, {
+            "name": "广东省国家税务局稽查局分局22222222222",
+            "path": "#/conditionmodel"
+          }, {
+            "name": "广东省国家税务局稽查局分局33333",
+            "path": "#/conditionmodel"
+          }, {
+            "name": "广东省国家税务局稽查局分局444444",
+            "path": "#/conditionmodel"
+          }, {
+            "name": "广东省国家税务局稽查局分局55555",
+            "path": "#/conditionmodel"
+          }, {
+            "name": "广东省国家税务局稽查局分局66666666是飒飒啊啊是",
+            "path": "#/conditionmodel"
+          }, {
+            "name": "广东省国家税务局稽查局分局7",
+            "path": "#/conditionmodel"
+          }, {
+            "name": "广东省国家税务局稽查局分局8",
+            "path": "#/conditionmodel"
+          }, {
+            "name": "广东省国家税务局稽查局分局9",
+            "path": "#/conditionmodel"
+          }]
+        },
+        {
+          "name": "广东省越秀区税务局",
+          "path": "#/conditionmodel"
+        },
+        {
+          "name": "广东省天河区税务局",
+          "path": "#/userCustomMessageTips"
+        },
+        {
+          "name": "广东省白云区税务局",
+          "path": "#/userCustomProgress"
+        },
+        {
+          "name": "广东省番禺区税务局",
+          "path": "#/userCustomTabs"
+        },
+        {
+          "name": "广东省黄埔区税务局",
+          "path": "#/userCustomHelps"
+        },
+        {
+          "name": "广东省荔湾区税务局",
+          "path": "#/userCustomScreenLock"
+        },
+        {
+          "name": "广东省越秀区税务局",
+          "path": "#/userCustomScreenshotsPage"
+        },
+        {
+          "name": "广东省越秀区税务局",
+          "path": "#/userCustomScreenPrintPage"
+        }
+      ]
+    },
+    {
+      "name": "山东省国家税务局",
+      "path": "",
+      "tree": true,
+      "children": [{
+          "name": "山东省国家税务局稽查分局1",
+          "path": "#/userCustomGroupPage"
+        }, {
+          "name": "山东省国家税务局稽查分局23",
+          "path": "#/mobanPage1"
+        },
+        {
+          "name": "山东省国家税务局稽查分局56",
+          "path": "#/mobanPage2"
+        },
+        {
+          "name": "山东省国家税务局稽查分局2",
+          "path": "#/mobanPage3"
+        },
+        {
+          "name": "山东省国家税务局稽查分局3",
+          "path": "#/mobanPage4"
+        },
+        {
+          "name": "山东省国家税务局稽查分局4",
+          "path": "#/mobanPage5"
+        },
+        {
+          "name": "山东省国家税务局稽查分局5",
+          "path": "#/mobanPage6"
+        },
+        {
+          "name": "山东省国家税务局稽查分局6",
+          "path": "#/dialogPage1"
+        },
+        {
+          "name": "山东省国家税务局稽查分局7",
+          "path": "#/dialogPage2"
+        },
+        {
+          "name": "山东省国家税务局稽查分局8",
+          "path": "#/dialogPage3"
+        },
+        {
+          "name": "山东省国家税务局稽查分局9",
+          "path": "#/dialogPage4"
+        }
+      ]
+    }
+  ]
+}

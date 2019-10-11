@@ -1,0 +1,330 @@
+.projectMenuItemsSubjectMenu ul, 
+.projectMenuItemsSubjectMenu li, 
+.projectMenuItemsSubjectMenu a, 
+.projectMenuItemsSubjectMenu h1, 
+.projectMenuItemsSubjectMenu h2,
+.projectMenuItemsSubjectMenu h3,
+.projectMenuItemsSubjectMenu div,
+.projectMenuItemsSubjectMenu p {
+  margin: 0;
+  padding: 0;
+}
+
+/* 专题菜单 */
+.projectMenuItemsSubjectMenu {
+  padding: 35px 0 20px 30px;
+  width: 874px;
+  height: 498px;
+  position: relative;
+}
+
+.projectMenuItemsSubjectMenu .projectMenuItemsSubjectDetails {
+  width: 854px;
+  padding-right: 20px;
+  height: 498px;
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  z-index: 1;
+  background: #fff;
+  display: none;
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_goBack {
+  width: 100px;
+  height: 28px;
+  border-radius: 4px;
+  background: #ebeae886;
+  border: none;
+  cursor: pointer;
+  color: #868686;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, .1);
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_header {
+  height: 150px;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_goBack:focus {
+  outline: none;
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_text_title {
+  font-size: 16px;
+  padding: 30px 20px 20px 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_text_content {
+  font-size: 12px;
+  margin: 0 20px 0 20px;
+  width: 780px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+  height: 70px;
+  text-align: justify;
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_ul {
+  height: 346px;
+  width: 852px;
+  border: 1px solid #e9e9e9;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.projectMenuItemsSubjectMenu .subjectDetails_ul::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_ul::-webkit-scrollbar-thumb {
+  background: #99ccff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_li {
+  width: 140px;
+  height: 140px;
+  float: left;
+  font-size: 12px;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_li h3 {
+  width: 120px;
+  height: 30px;
+  margin-left: 11px;
+  overflow: hidden;
+  font-size: 12px;
+  margin: 4px 0 2px 11px;
+}
+
+.projectMenuItemsSubjectMenu .subjectDetails_ul img {
+  width: 64px;
+  height: 64px;
+  margin-top: 27px;
+}
+
+.projectMenuItemsSubjectMenu .sub_search {
+  width: 830px;
+  height: 28px;
+  font-size: 12px;
+  padding-left: 20px;
+  background: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+}
+
+.projectMenuItemsSubjectMenu .sub_search:hover {
+  border-color: #169BD5;
+  color: #169BD5;
+  background: #fff;
+}
+
+.projectMenuItemsSubjectMenu .sub_search:focus {
+  outline: none;
+}
+
+.projectMenuItemsSubjectMenu .sub_ul {
+  width: 874px;
+  height: 450px;
+  overflow: auto;
+  margin-top: 16px;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+.projectMenuItemsSubjectMenu .sub_ul::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.projectMenuItemsSubjectMenu .sub_ul::-webkit-scrollbar-thumb {
+  background: #99ccff;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.projectMenuItemsSubjectMenu .sub_li {
+  width: 375px;
+  height: 150px;
+  border-radius: 4px;
+  list-style: none;
+  float: left;
+  margin: 0 20px 20px 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.projectMenuItemsSubjectMenu .sub_li_title {
+  font-size: 16px;
+  margin: 20px;
+  width: 230px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+.projectMenuItemsSubjectMenu .sub_li_content {
+  font-size: 12px;
+  margin: 0 20px 20px 20px;
+  width: 230px;
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas {
+  width: 850px;
+  position: absolute;
+  top: 68px;
+  left: 30px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+  border: 1px solid #e9e9e9;
+  background: #fff;
+  display: none;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_tips {
+  font-size: 14px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 40px;
+  color: #666;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_ul {
+  height: 425px;
+  overflow: auto;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_ul::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_ul::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_li {
+  margin: 10px 40px 0 40px;
+  padding: 4px 5px;
+  list-style: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_li:hover {
+  background: #f2f2f24b;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_li .searchDatas_div {
+  clear: both;
+  height: 24px;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_li .searchDatas_div h3 {
+  color: #169BD5;
+  font-size: 14px;
+  float: left;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_li .searchDatas_div div {
+  font-size: 14px;
+  float: right;
+  color: #666;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_li a {
+  text-decoration: none;
+  display: block;
+}
+
+.projectMenuItemsSubjectMenu .searchDatas_li .searchDatas_path {
+  display: block;
+  clear: both;
+  font-size: 12px;
+  color: #666;
+}
+.projectMenuItemsSubjectMenu .dialogAddSubject{
+  width: 350px;
+  height: 170px;
+  background: #fff;
+  position: absolute;
+  top:20%;
+  left: 31%;
+  border-radius: 5px;
+  z-index: 2;
+  border: 1px solid #e9e9e9;
+  display: none;
+}
+.projectMenuItemsSubjectMenu .dialogAddSubject_title{
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid #e9e9e9;
+}
+.projectMenuItemsSubjectMenu .dialogAddSubject_content{
+  height: 80px;
+  line-height: 80px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.projectMenuItemsSubjectMenu .dialogAddSubject_btns{
+  width: 400px;
+  height: 40px;
+  text-align: center;
+}
+.projectMenuItemsSubjectMenu .dialogAddSubject_btns button{
+  width: 65px;
+  height: 26px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 0 4px;
+  cursor: pointer;
+  border: 1px solid #e9e9e9;
+}
+.projectMenuItemsSubjectMenu .dialogAddSubject_btns button:hover{
+  background: #3491eb;
+  border: 1px solid #3491eb;
+  color: #fff;
+}
+.projectMenuItemsSubjectMenu .dialogAddSubject_btns button:hover span{
+  color: #fff;
+}
+.projectMenuItemsSubjectMenu .dialogAddSubject_btns button:focus{
+  outline: none;
+}

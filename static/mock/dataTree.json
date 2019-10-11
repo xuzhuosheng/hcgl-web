@@ -1,0 +1,25 @@
+{
+  "dataTree": [{
+    "id": "1",
+    "apiName": "关系云图",
+    "apiDescription": "",
+    "children": [{
+      "id": "1-1",
+      "apiName": "线条",
+      "apiDescription": ""
+    }, {
+      "id": "1-2",
+      "apiName": "圆圈",
+      "apiDescription": ""
+    }]
+  }, {
+    "id": "2",
+    "apiName": "票流分析",
+    "apiDescription": ""
+  }, {
+    "id": "3",
+    "apiName": "智慧大屏",
+    "apiDescription": ""
+  }],
+  "success": true
+}

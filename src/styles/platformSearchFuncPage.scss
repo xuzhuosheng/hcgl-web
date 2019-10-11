@@ -1,0 +1,124 @@
+/* 平台功能搜索.css */
+.platformSearchFuncPage {
+  width: 100%;
+  min-height: 100%;
+  background: #fff;
+
+  .platformSearchFuncPage-container {
+    width: calc(100% - 42px);
+    padding: 32px 21px 32px 21px;
+
+    .platformSearchFuncPage-search {
+      height: 34px;
+      line-height: 34px;
+      position: relative;
+
+      .platformSearchFuncPage-search__img {
+        width: 62px;
+        height: 24px;
+        position: absolute;
+        top: 5px;
+        left: 0;
+      }
+
+      .platformSearchFuncPage-search__value {
+        width: 360px;
+        height: 34px;
+        margin-left: 72px;
+
+        .el-input__inner {
+          height: 34px;
+        }
+
+        .el-input-group__append .el-button {
+          width: 72px;
+          height: 34px;
+          border-radius: 0;
+          background: #3491eb;
+          padding: 0;
+        }
+
+        .el-input-group__append .el-button:focus {
+          outline: none;
+          border: #000;
+        }
+
+        .el-input-group__append .el-button span {
+          color: #fff;
+          font-size: 14px;
+        }
+      }
+
+
+      .el-input-group--prepend .el-input__inner,
+      .el-input-group__append {
+        border-radius: 0;
+      }
+    }
+
+    .platformSearchFuncPage-searchDataShow {
+      .el-tabs {
+        width: 1000px;
+
+        .el-tabs__header {
+          margin-top: 10px;
+          border-color: #e9e9e9;
+        }
+      }
+
+      .platformSearchFuncPage-searchDataShowContent__li {
+        width: 860px;
+        margin: 10px 0 25px 0;
+
+        .platformSearchFuncPage-searchDataShowContent__liDiv {
+          font-size: 16px;
+          border-bottom: 1px solid #3491eb;
+          height: 24px;
+          line-height: 24px;
+          display: inline-block;
+          margin-bottom: 10px;
+          cursor: pointer;
+          width: 860px;
+          overflow: hidden;
+
+          .platformSearchFuncPage-searchDataShowContent__liDivTitle1 {
+            color: #33336c;
+            margin-right: 10px;
+          }
+
+          .platformSearchFuncPage-searchDataShowContent__liDivTitle2 {
+            color: #6c91ec;
+          }
+
+          .platformSearchFuncPage-searchDataShowContent__liDivTitle3 {
+            color: #57b674;
+            margin-left: 10px;
+          }
+        }
+
+        .platformSearchFuncPage-searchDataShowContent__liContentDiv {
+          font-size: 13px;
+          line-height: 1.5;
+          color: #666;
+        }
+      }
+
+      .platformSearchFuncPage-searchDataShowContent__liEmpty {
+        width: 860px;
+        height: 100px;
+        line-height: 100px;
+        color: #989898;
+      }
+
+      .platformSearchFuncPage-paginations {
+        overflow: hidden;
+        width: 860px;
+        padding: 10px 0;
+        .el-pagination{
+            float: right;
+        }
+      }
+
+    }
+  }
+}
