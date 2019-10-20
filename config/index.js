@@ -50,6 +50,14 @@ module.exports = {
           '^/user': '/'
         }
       },
+      '/login': {
+        target: 'http://192.168.0.106:20210/login', //对应自己的接口
+        changeOrigin: true,
+        ws: true,
+        pathRewrite: {
+          '^/login': '/'
+        }
+      },
       onProxyReq: function (proxyReq, req, res) {
 
         console.log("原路径：" + req.port + req.originalUrl, "代理路径：" + res.port + req.path)

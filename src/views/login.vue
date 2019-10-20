@@ -119,9 +119,8 @@
         // 	return;
         // }
 
-        new Httpclient("/user").notokenpost("/doLogin",
-          // {accountCode: that.login.username, password: that.login.pwd},
-          {username: "admin", password: "123"},
+        new Httpclient("/login").notokenpost("/doLogin",
+          "username=gutianle&password=123456",
           function (res) {
             if (res.success) {
               auth.setToken(res.data.token);
@@ -158,11 +157,11 @@
         })
       },
       onTest() {
-        new Httpclient("/user").notokenpost("/Test", "name=gutianle&age=18", function (res) {
+        new Httpclient("/login").notokenpost("/doLogin2","", function (res) {
           console.log(res[0]);
           console.log(res[1]);
           console.log("不用token的post", res.name);
-        })
+        },)
       }
     }
   }
